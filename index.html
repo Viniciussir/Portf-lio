@@ -4,47 +4,121 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl/owl.theme.default.min.css">
+
     <title>Vinicius Scampini - Portfolio</title>
 </head>
     <header>
-           <div class="container">
-           <h2 class="logo-name">Vinicius Scampini</h2>
+           <div class="fixed-top">
+           <h2 class="Title-principal">Vinicius Coelho Scampini</h2>
             <nav>
-                 <a href="#home"><i class="fas fa-home"></i> Home </a> 
-                <a href="#sobre"><i class="fas fa-user-tie"></i> Sobre mim</a>
-                <a href="#conhecimento"><i class="fas fa-brain"></i> Tecnologias</a>
-                <a href="#projetos"><i class="fas fa-folder-open"></i> Projetos</a>
-                <a href="contato"><i class="fas fa-address-book"></i> Contato</a>
+                <a href="#presentation"><i class="fas fa-home"></i> Home </a> 
+                <a href="#about"><i class="fas fa-user-tie"></i> Sobre mim</a>
+                <a href="#technologies"><i class="fas fa-brain"></i> Tecnologias</a>
+                <a href="#projects"><i class="fas fa-folder-open"></i> Projetos</a>
+                <a href="#contact"><i class="fas fa-address-book"></i> Contato</a>
             </nav>
         </div>
     </header>
-    <section id="home" class="home">
+
+    <section id="presentation" class="container">
+        <div  class="presentation">
         <h1>Olá, é um prazer ter você aqui,</h1>
         <h1>Eu me chamo Vinicius!</h1>
-        <h2 class="botao"><a href="https://api.whatsapp.com/send?phone=5513981006977&text=Vinicius%20Coelho%20Scampini"></a> Vamos conversar?!</h2>
-    </section>
-    <section id="sobre" class="sobre">
-        <h1>Sobre mim</h1>
-        <p>
-            Atualmente estou em busca de uma oportunidade para aprimorar meus conhecimentos
-       </p>
-        <p>
-            Cursando Engenharia da Computação na São Judas (campos Unimonte)
-        </p>
-        <p>
-            Aluno do Boot camp React Web Developer na Digital Innovation One, já finalizei o Bootcamp de Web Html Developer
-        </p>
-        <p>
-            Onde desenvolvi as seguintes habilidades:
-        </p>
-        <p>
-            HTML5 | CSS3 | JAVASCRIPT | BOOTSTRAP | PHP| GIT | GITHUB 
-        </p>
+        <a class="button" target="_blank" href="https://www.linkedin.com/in/viniciuscoelhoscampini/"> <h2 > Vamos conversar?!</h2></a>
+         </div>
+        <img class="profile" src="imag/perfil.jpeg">
+   
+        </section>
+        
+    <section id="about" class="container">
+        <div  class="about">
+         <h1 style="font-size: 70px;">Sobre mim</h1>
+         <p>
+            - Atualmente estou em busca de uma oportunidade para aprimorar meus conhecimentos.
+         </p>
+         <p>
+            - Cursando Engenharia da Computação na São Judas (campos Unimonte).
+         </p>
+         <p>
+            -Aluno do Bootcamp Everis FullStack Developer na Digital Innovation One.
+         </p>
+          <p>
+            - Onde desenvolvi as seguintes habilidades:
+         </p>
+         <p>
+            HTML5 | CSS3 | JAVASCRIPT | BOOTSTRAP | GIT | GITHUB 
+         </p>
+      </div>
         
     </section>
 
+    <section id="technologies" class="container-row">
+        <h1 style="font-size: 70px";>Tecnologias</h1>
+        <div class="technologies">   
+            <div class="box">
+            <p class="box-title">HTML</p>
+            <p class="box-description">HTML uma linguagem de marcação utilizada na construção de páginas web.</p>
+        </div>
+        <div class="box">
+            <p class="box-title">CSS</p>
+            <p class="box-description">O CSS define como serão exibidos os elementos contidos no código.</p>
+        </div>
+        <div class="box">
+            <p class="box-title"e>JAVASCRIPT</p>
+            <p class="box-description">Uma das linguagens de programação mais utilizadas hoje em dia.</p>
+        </div>
+        <div class="box">
+            <p class="box-title">BOOTSTRAP</p>
+            <p class="box-description">Framework com código fonte aberto para desenvolvimento Front End.</p>
+        </div>
+        <div class="box">
+            <p class="box-title">GIT</p>
+            <p class="box-description">É um sistema de controle de versões distribuído para trabalho em equipe.</p>
+        </div>
+        <div class="box">
+            <p class="box-title">GITHUB</p>
+            <p class="box-description">É uma plataforma de hospedagem de código-fonte e arquivos com controle de versão usando o Git.</p>
+        </div>
+        </div>
+
+    </section>
+
+    <section id="projects" class="container-row">
+
+        <h1 class="projects">Projetos</h1>
+        <div class="owl-carousel owl-theme">
+            <div class="item"></div><img src="imag/breve.jpg" alt="Em Breve">
+        </div>
+
+    </section>
+
+    <section id="contact" class="container">
+
+        <div class="contact">
+
+        <h2 class="contact-title">Contato</h2>
+
+        <div class="info">
+            <h4>Localização</h4>
+            <p>Santos - SP. Brasil</p>
+
+            <h4>Email</h4>
+            <p>viniciuscscampini@gmail.com</p>
+
+            <h4>Telefone</h4>
+            <p>(13) 98100-6977</p>
+        </div>
+    </div>
+
+    </section>
+
     <script src="https://kit.fontawesome.com/7a27a6ea75.js" crossorigin="anonymous"></script>
-</body>
+    <script src="js/owl/jquery.min.js"> </script>
+    <script src="js/owl/owl.carousel.min.js"> </script>
+    <script src="js/main.js"></script>
+
+    </body>
 </html>
-<!--  -->
 
